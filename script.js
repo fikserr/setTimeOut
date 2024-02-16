@@ -70,9 +70,11 @@ class Typing {
     }
 }
 
-let title = new Typing (".title", 100);
+let son = prompt("Son kiriting")
 
-let text = new Typing (".text", 100 );
+let title = new Typing (".title", son);
+
+let text = new Typing (".text", son);
 
 
 
